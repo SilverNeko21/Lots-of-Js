@@ -1,3 +1,4 @@
+//hero
 var hero = "Jake";
 var gender = "male";
 var age = 25;
@@ -29,3 +30,18 @@ function theHero() {
 	return hero + " is our lovable hero, who " + output + " with his trusty " + weapon + "."
 }
 console.log(theHero())
+
+
+
+
+//Lights 
+var lights = Boolean(5 == 3);
+
+function Light() {
+	if (lights == true) {
+		console.log("And then there was light.");
+	} else {
+		console.log("Lights out.");
+	}
+}
+Light();
